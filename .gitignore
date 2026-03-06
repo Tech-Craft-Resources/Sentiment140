@@ -8,3 +8,33 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables
+.env
+
+# Data files (large)
+data/raw/
+data/processed/
+data/encoded/
+
+# Models (large binaries)
+models/best_model.pkl
+
+# MLflow local artifacts
+mlruns/
+mlartifacts/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Cursor agent files
+.agents/
+skills-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
