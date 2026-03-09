@@ -1,0 +1,34 @@
+{
+  "model_name": "CalibratedClassifierCV",
+  "encoding": "tfidf_bi",
+  "parameters": {
+    "C": 0.1,
+    "max_iter": 2000,
+    "random_state": 42
+  },
+  "member": "daniel",
+  "stage": "models",
+  "task": "Binary Sentiment Classification",
+  "dataset": "Sentiment140",
+  "metrics": {
+    "train": {
+      "accuracy": 0.8371,
+      "precision": 0.8372,
+      "recall": 0.8371,
+      "f1_macro": 0.8371
+    },
+    "val": {
+      "accuracy": 0.8209,
+      "precision": 0.821,
+      "recall": 0.8209,
+      "f1_macro": 0.8208
+    },
+    "test": {
+      "accuracy": 0.8212,
+      "precision": 0.8214,
+      "recall": 0.8213,
+      "f1_macro": 0.8212
+    }
+  },
+  "created_at": "2026-03-09T04:44:33.976306"
+}

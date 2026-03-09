@@ -17,9 +17,6 @@ data/raw/
 data/processed/
 data/encoded/
 
-# Models (large binaries)
-models/best_model.pkl
-
 # MLflow local artifacts
 mlruns/
 mlartifacts/
