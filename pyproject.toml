@@ -23,8 +23,8 @@ dependencies = [
     "jupyter>=1.0.0",
     "ipykernel>=6.29.0",
     "ipywidgets>=8.1.0",
-    "fastapi[standard]>=0.110.0",
-    "uvicorn[standard]>=0.29.0",
-    "pydantic>=2.6.0",
     "pip>=26.0.1",
 ]
+
+[tool.uv.workspace]
+members = ["api"]
