@@ -15,7 +15,8 @@ wheels/
 # Data files (large)
 data/raw/
 data/processed/
-data/encoded/
+data/encoded/*
+!data/encoded/tfidf_bi_vectorizer.pkl
 
 # MLflow local artifacts
 mlruns/
