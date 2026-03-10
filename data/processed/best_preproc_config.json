@@ -1,0 +1,7 @@
+{
+  "remove_stopwords": false,
+  "lemmatize": false,
+  "emoji_mode": "drop",
+  "normalize_elongations_flag": false,
+  "remove_punct": true
+}
